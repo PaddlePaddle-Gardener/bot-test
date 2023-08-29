@@ -18,7 +18,7 @@ def binarySearch (arr, l, r, x):
         # 不存在
         return -1
 # 测试数组
-arr = [ 2, 3, 4, 10, 40 ] 
+arr = [ 2, 3, 4, 5, 6, 10, 40 ] 
 x = 10
 # 函数调用
 result = binarySearch(arr, 0, len(arr)-1, x) 
